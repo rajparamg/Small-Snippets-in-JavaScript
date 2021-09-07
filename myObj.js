@@ -5,3 +5,7 @@ for(var i = 1; i<=5; i++){ // A loop has added to add key- values in above objec
     obj['number'+i] = i; //here we are using Square brackets [] to add keys & after assignment symbol values. here values are numbers
 }
 console.log(obj);
+
+/* Output will be
+{number1: 1, number2: 2, number3: 3, number4: 4, number5: 5}
+*/
